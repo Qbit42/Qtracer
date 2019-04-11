@@ -10,4 +10,27 @@
 
 	<artifactId>qtracer.utils</artifactId>
 
+	<dependencies>
+
+		<dependency>
+			<groupId>de.qbyte.qtracer</groupId>
+			<artifactId>qtracer.test</artifactId>
+			<version>0.0.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>pl.pragmatists</groupId>
+			<artifactId>JUnitParams</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
 </project>
